@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ECF0F1; /* Light grey background */
+    color: #2C3E50; /* Dark blue text color */
+}
+
+header {
+    background-color: #2C3E50; /* Dark blue background */
+    color: #fff; /* White text */
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #18BC9C; /* Teal text */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #E74C3C; /* Red text on hover */
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    background-color: #fff; /* White background for sections */
+    border-radius: 8px;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for better readability */
+}
+
+.project {
+    border: 1px solid #ddd; /* Light grey border */
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #fff; /* White background for projects */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for better readability */
+}
+
+footer {
+    background-color: #2C3E50; /* Dark blue background */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+h1, h2, h3 {
+    color: #2C3E50; /* Dark blue headings */
+}
+
+a {
+    color: #18BC9C; /* Teal links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #E74C3C; /* Red links on hover */
+}
